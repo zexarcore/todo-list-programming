@@ -81,6 +81,23 @@ public class Task {
 
     // Ejemplo de presentacion 7. Bucles en Java: while, do-while y for
     public void loops(){
-        System.out.println("Bucle while:");
-    } 
+        // Bucle for
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Iteración número: " + i);
+        }
+
+        // Bucle while
+        int j = 1;
+        while (j <= 5) {
+            System.out.println("Iteración número: " + j);
+            j++;
+        }
+
+        // Bucle do-while
+        int k = 1;
+        do {
+            System.out.println("Iteración número: " + k);
+            k++;
+        } while (k <= 5);
+    }
 }
